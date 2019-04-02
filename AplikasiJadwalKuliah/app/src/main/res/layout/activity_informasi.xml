@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/blue"
+    tools:context=".InformasiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagekom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kom"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="ILMU KOMPUTER" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:textSize="18dp"
+            android:gravity=""
+            android:text="Ilmu Komputer adalah sebuah ilmu yang mempelajari baik tentang komputasi, perangkat keras (hardware) maupun perangkat lunak (software). Ilmu komputer mencakup beragam topik yang berkaitan dengan komputer, mulai dari analisis abstrak algoritma sampai subyek yang lebih konkret seperti bahasa pemrograman, perangkat lunak, termasuk perangkat keras. Berbeda dengan Teknik Informatika yang lebih menekankan pada sisi penerapannya, program studi Ilmu Komputer lebih fokus pada 'sains' dari bidang komputer itu sendiri.
+
+Ilmu Komputer mempelajari apa yang bisa dilakukan oleh beberapa program, dan apa yang tidak (komputabilitas dan intelegensia buatan), bagaimana program itu harus mengevaluasi suatu hasil (algoritme), bagaimana program harus menyimpan dan mengambil bit tertentu dari suatu informasi (struktur data), dan bagaimana program dan pengguna berkomunikasi (antarmuka pengguna dan bahasa pemrograman)."/>
+    </ScrollView>
+
+</RelativeLayout>
